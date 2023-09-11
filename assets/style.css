@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;0,800;1,300;1,600;1,700;1,800&family=Roboto:wght@400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #36384D;
+}
+.card{
+    width: 800px;
+    height: 500px;
+    background-color: #FFFFFF;
+    margin: 100px auto;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.img{
+position: relative;
+}
+.img1{
+    position: absolute;
+    height: 465px;
+    right: 20px;
+    margin-top: 16px;
+    
+}
+.content{
+    width: 50%;
+    align-items: center;
+    text-align: left;
+    
+}
+ h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+     padding-top: 70px;
+     padding-bottom: 10px;
+     margin-left: -90px;
+    }
+.content .p1{
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.content .p2{
+   text-align: left; 
+   padding-left: 40px;
+   /* line-height: 30px; */
+   margin-bottom: 20px;
+   align-items: center;
+}
+.content p img{
+    width: 16px;
+    margin-right: 20px;
+}
+label{
+    font-weight: bold ;
+    display: block;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+.input {
+    max-width: 300px;
+    display: block;
+    width: 30%;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    margin-left: 40px;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .label {
+    display: inline-block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+#btn{
+    margin-left: 40px;
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: linear-gradient(#FF644A,#FF576C);
+    color: white;
+    font-weight: bold;
+    outline: 0;
+    border: 0;
+}
+.label1 {
+    display: inline-block;
+    display: none;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #F6C0BE;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  .active{
+    display: inline-block;
+  }
+  .thank{
+    position: fixed;
+    background-color: #36384D;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  .thank2{
+width: 350px;
+height: 350px;
+background-color: #FFFFFF;
+margin: auto;
+margin-top: 200px;
+border-radius: 20px;
+
+
+  }
+  .img2{
+    margin: 20px;
+    width: 40px;
+  }
+
+  .thank2 h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin:0 20px 10px 20px;
+  }
+  .thank2 p{
+margin:0 20px 0 20px ;
+}
+  .thank2 p span{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+#btn2{
+    background-color: #36384D;
+    margin-left: 40px;
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    outline: 0;
+    border: 0;
+}
+.active2{
+    display: block;
+}
+.img3{
+    display: none;
+}
+@media  (max-width: 400px) {
+    .card{
+        width: 100%;
+        height: 130vh;
+
+        
+    }
+    .img{
+        display: none;
+        }
+        .img3{
+            display: block;
+            width: 100%;
+        
+        }
+        .content{
+            width: 90%;
+            align-items: center;
+            text-align: left;
+            
+        }
+        h1{
+            font-size: 35px;
+            margin-left: 5px;
+            }
+            .content .p1{
+                font-size: 13px;
+            }
+            .content .p2{
+                font-size: 13.5px; 
+               margin-bottom: 10px;
+              
+              
+            }
+            .content p img{
+                width: 16px;
+                margin-right: 10px;
+            }
+            .input{
+                width: 70%;
+            }
+            #btn{
+                margin-left: 40px; 
+                width: 260px;
+            }
+            .thank2{
+                width: 100%;
+                height: 350px;
+                background-color: #FFFFFF;
+                margin: auto;
+                margin-top: 200px;
+                border-radius: 20px;
+                
+                
+                  }
+                  #btn2{
+                    margin-left: 20px;
+                    
+                }
+  }
+  
